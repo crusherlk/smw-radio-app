@@ -9,8 +9,6 @@ export const PageLoader = () => {
           width="50"
           color="#fcfcff"
           ariaLabel="bars-loading"
-          wrapperStyle={{}}
-          wrapperClass=""
           visible={true}
         />
       </div>
