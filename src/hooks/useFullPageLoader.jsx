@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PageLoader } from "../components/pageLoader";
+import { PageLoader } from "../components/PageLoader";
 
 export const useFullPageLoader = () => {
   const [loading, setLoading] = useState(false);
