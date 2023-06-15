@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-Rubik text-cWhite;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase font-bold cursor-pointer tracking-wider;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(45, 46, 55, 0.8),
+      rgba(45, 46, 55, 0.8)
+    ),
+    url("./assets/imgs/bg-cool.jpg");
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  /* background-blend-mode: overlay; */
+}
+
+.loading-wrapper {
+  background: rgba(45, 46, 55, 0.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
