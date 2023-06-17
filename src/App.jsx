@@ -1,3 +1,4 @@
+import { Footer } from "./layouts/Footer";
 import { Navbar } from "./layouts/Navbar";
 import { Home } from "./pages/Home";
 
@@ -8,6 +9,7 @@ function App() {
       <div className="container mx-auto">
         <Home />
       </div>
+      <Footer />
     </>
   );
 }
